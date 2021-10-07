@@ -1,0 +1,77 @@
+:root {
+    --border-color: #eaeaea;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+input {
+    height: 26px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.tela {
+    height: 600px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    width: 800px;
+}
+
+.header-logo {
+    text-align: right;
+    border-bottom: 1px solid var(--border-color);
+    padding: 20px;
+}
+
+.dados-negocio {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.dados-negocio .campo-negocio {
+    padding: 10px 10px;
+}
+
+.dados-negocio .campo-negocio .titulo{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.dados-negocio .campo-negocio .valor input{
+    width: calc(100% - 20px);
+}
+
+
+.dados-negocio .campo-negocio.num-negocio {
+    flex-grow: 1;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #eaeaea;
+    font-size: 13px;
+    color: #5a5a5a;
+    text-align: left;
+    padding: 5px 20px;
+}
+
+td {
+    border: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 5px 20px;
+    text-align: left;
+}
+
+td input {
+    width: 100px;
+}
