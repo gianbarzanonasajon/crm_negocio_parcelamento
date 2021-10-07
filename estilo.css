@@ -60,11 +60,14 @@ th {
 }
 
 td {
-    border: 1px solid var(--border-color);
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
     padding: 5px 20px;
     text-align: left;
+}
+
+td:first-child {
+    border-left: 1px solid var(--border-color);
 }
 
 td input {
