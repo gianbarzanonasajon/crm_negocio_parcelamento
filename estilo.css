@@ -56,7 +56,7 @@ th {
     font-size: 13px;
     color: #5a5a5a;
     text-align: left;
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 td {
@@ -68,6 +68,10 @@ td {
 
 td:first-child {
     border-left: 1px solid var(--border-color);
+}
+
+tr:nth-child(odd) td{
+    background-color: #fafafa;
 }
 
 td input {
