@@ -1,0 +1,11 @@
+{ 
+    "routing": { 
+        "url": "https://api.dev.nasajonsistemas.com.br/fosrouting/js/routing"
+    },
+
+    "auth" : {
+        "url": "https:\/\/auth.dev.nasajonsistemas.com.br\/auth",
+        "realm":"DEV",
+        "clientId":"erp_api"
+    }
+}
