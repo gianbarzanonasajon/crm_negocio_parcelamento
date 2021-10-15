@@ -1,6 +1,6 @@
 { 
     "routing": { 
-        "url": "https://api.dev.nasajonsistemas.com.br/fosrouting/js/routing"
+        "url": "https://us-central1-ana-du.cloudfunctions.net/ana-hubspot"
     },
 
     "auth" : {
